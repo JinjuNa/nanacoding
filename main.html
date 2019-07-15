@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/sidemenu.css">
     <script src="https://kit.fontawesome.com/6cf8dee3cc.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans|Nanum+Gothic+Coding&display=swap" rel="stylesheet">
 </head>
@@ -13,7 +14,7 @@
     <div id="wrap">
         <header>
             <div class="headerIn">
-            <h1><img src="./img/nanacodingmini.png" alt="nanacodinglogo"></h1>
+                    <h1><a href="main.html"><img src="./img/nanacodingmini.png" alt="nanacodinglogo"></a></h1>
             <button class="menubutton">
                 <span></span>
                 <span></span>
@@ -62,10 +63,40 @@
                 </div>
             </div>
         </div>
+
+        <div class="bgBk"></div>
+        <div id="side">
+            <div id="sideIn">
+                <nav>
+                    <ul>
+                        <li><a href="./main.html">나나코딩 소개</a></li>
+                        <li><a href="./curriculum.html">커리큘럼</a></li>
+                        <li><a href="./gallery.html">작품방</a></li>
+                    </ul>
+                </nav>
+                <p class="closeMenu"><a href="#"><span>메뉴닫기</span></a></p>
+            </div>
+
+
+        </div>
         
 
     </div>
     <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+    $('.menubutton').click(function(){
+	$('.bgBk').stop().fadeIn(500);
+	$("#side").stop().animate({right:"0px"},500);
+	return false;
+    });
+
+    $(".closeMenu").click(function(){
+	$('.bgBk').stop().fadeOut(500);
+	$("#side").stop().animate({right:"-100%"},500);
+	return false;
+    });
+    
+    </script>
 
 
 </body>
