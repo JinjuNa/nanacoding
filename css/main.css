@@ -137,9 +137,11 @@ header{
 }
 
 .page5 .curriculum{
+    display: block;
     width:80%;
     margin:0 auto;
     height: 70px;
     background-color:#ffba01;
     line-height: 70px;
+    cursor: pointer;
 }
