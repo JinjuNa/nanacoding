@@ -35,7 +35,7 @@ a{
     border: 10px solid #ffe400;
     text-align: center;
     line-height: 70px;
-    margin-top:50px;
+    /* margin-top:50px; */
 }
 
 .start:hover{

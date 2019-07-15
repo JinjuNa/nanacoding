@@ -1,0 +1,145 @@
+@charset 'utf-8';
+
+*{
+    padding:0;
+    margin:0;
+}
+
+a{
+    text-decoration: none;
+    color:inherit
+}
+
+ul{
+    list-style: none;
+}
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+header{
+    position:fixed;
+    width:100%;
+}
+
+.headerIn{
+    padding:5px 0;
+    height: 50px;
+    background-color: white;
+    position: relative;
+    border-bottom: 1px solid #ffe400;
+}
+
+.headerIn h1{
+    height: 50px;
+}
+
+.headerIn img{
+    height: 100%;
+    width:auto;
+    margin-left:20px;
+}
+
+.menubutton{
+    background-color: white;
+    border:none;
+    position: absolute;
+    top:16px;
+    right:20px;
+    
+
+}
+
+.menubutton span{
+    display: block;
+    width:30px;
+    height: 2px;
+    background-color: #2a2a2a;
+    margin:5px 0;
+}
+
+/* content 영역 */
+.wrap{
+    width:300px;
+    margin:0 auto;
+}
+
+.content{
+   padding-top:100px;
+   
+}
+
+.page1, .page2{
+    text-align: center;
+    padding:50px 0;
+}
+
+.page1 p{
+    font-size:18px;
+    line-height: 30px;
+}
+
+.page1 strong{
+    /* color: #ffe400; */
+}
+
+.page1 img{
+    width:50%;
+    margin:50px auto;
+    
+}
+
+.page2{
+    
+    border-top:3px dotted #efefef;
+}
+
+.page2 .img1{
+    width:50%;
+    margin:30px auto;
+}
+
+.page2 .img2{
+    width:80%;
+    margin:30px auto;
+}
+
+.page3{
+    background-color: #333;
+    color:white;
+    text-align: center;
+    padding:50px 0;
+}
+
+.page3 img{
+   
+}
+
+.page4{
+    padding: 50px 0;
+    background-color: #000;
+}
+
+.page4 img{
+    width:100%;
+    vertical-align: top;
+
+}
+
+.page5{
+    padding:50px 0;
+    text-align: center;
+}
+
+.page5 img{
+    width:100%;
+    margin:50px 0;
+}
+
+.page5 .curriculum{
+    width:80%;
+    margin:0 auto;
+    height: 70px;
+    background-color:#ffba01;
+    line-height: 70px;
+}
