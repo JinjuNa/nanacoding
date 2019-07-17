@@ -17,46 +17,7 @@ body{
     font-family: 'Nanum Gothic', sans-serif;
 }
 
-header{
-    position:fixed;
-    width:100%;
-}
 
-.headerIn{
-    padding:5px 0;
-    height: 50px;
-    background-color: white;
-    position: relative;
-    border-bottom: 1px solid #ffe400;
-}
-
-.headerIn h1{
-    height: 50px;
-}
-
-.headerIn img{
-    height: 100%;
-    width:auto;
-    margin-left:20px;
-}
-
-.menubutton{
-    background-color: white;
-    border:none;
-    position: absolute;
-    top:16px;
-    right:20px;
-    
-
-}
-
-.menubutton span{
-    display: block;
-    width:30px;
-    height: 2px;
-    background-color: #2a2a2a;
-    margin:5px 0;
-}
 
 /* content 영역 */
 .wrap{
@@ -108,11 +69,15 @@ header{
     background-color: #333;
     color:white;
     text-align: center;
-    padding:50px 0;
+    padding:100px 0;
+}
+
+.page3 p{
+    margin-bottom:20px;
 }
 
 .page3 img{
-   
+    margin-top :20px;
 }
 
 .page4{
@@ -127,12 +92,20 @@ header{
 }
 
 .page5{
+    /* background-color: #efefef; */
     padding:50px 0;
     text-align: center;
+    
+}
+
+.page5 strong{
+    color:#2a2a2a;
+    font-size:18px;
+    font-weight: 900;
 }
 
 .page5 img{
-    width:100%;
+    width:80%;
     margin:50px 0;
 }
 
@@ -140,8 +113,10 @@ header{
     display: block;
     width:80%;
     margin:0 auto;
-    height: 70px;
-    background-color:#ffba01;
-    line-height: 70px;
+    height:50px;
+    background-color:#ffe400;
+    line-height: 50px;
     cursor: pointer;
+    color:white;
+    font-weight: 900;
 }
